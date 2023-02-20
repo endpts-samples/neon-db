@@ -1,0 +1,19 @@
+{
+  "name": "neon-db",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "endpts dev"
+  },
+  "devDependencies": {
+    "@endpts/devtools": "^1.0.0",
+    "@endpts/types": "^1.0.0",
+    "@types/node": "^18.14.0",
+    "@types/pg": "^8.6.6",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "pg": "^8.9.0"
+  }
+}
